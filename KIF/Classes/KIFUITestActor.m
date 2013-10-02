@@ -478,11 +478,11 @@
 
     if (!cell) {
         if (indexPath.section >= tableView.numberOfSections) {
-            [self failWithError:[NSError KIFErrorWithFormat:@"Section %d is not found in '%@' table view", indexPath.section, tableViewLabel] stopTest:YES];
+            [self failWithError:[NSError KIFErrorWithFormat:@"Section %ld is not found in '%@' table view", (long)indexPath.section, tableViewLabel] stopTest:YES];
         }
         
         if (indexPath.row >= [tableView numberOfRowsInSection:indexPath.section]) {
-            [self failWithError:[NSError KIFErrorWithFormat:@"Row %d is not found in section %d of '%@' table view", indexPath.row, indexPath.section, tableViewLabel] stopTest:YES];
+            [self failWithError:[NSError KIFErrorWithFormat:@"Row %ld is not found in section %ld of '%@' table view", (long)indexPath.row, (long)indexPath.section, tableViewLabel] stopTest:YES];
         }
         
         [tableView scrollToRowAtIndexPath:indexPath atScrollPosition:UITableViewScrollPositionMiddle animated:YES];
