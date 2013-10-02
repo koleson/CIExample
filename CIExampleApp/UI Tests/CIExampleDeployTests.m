@@ -12,7 +12,7 @@
 
 - (void)testInitialState
 {
-    [tester waitForViewWithAccessibilityLabel:@"Current Deployment Status"];
+    [tester waitForViewWithAccessibilityLabel:@"Current Deployment Status" value:@"Nothing has happened yet." traits:UIAccessibilityTraitNone];
     [tester tapViewWithAccessibilityLabel:@"Deploy"];
 }
 

@@ -21,6 +21,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     self.currentStatusLabel.text = @"Nothing has happened yet.";
+    self.currentStatusLabel.accessibilityValue = self.currentStatusLabel.text;
 }
 
 - (void)didReceiveMemoryWarning
