@@ -34,10 +34,12 @@
 {
     if (self.happyFunSwitch.on) {
         self.currentStatusLabel.attributedText = [[NSAttributedString alloc] initWithString:@"HAPPY FUN MODE DEPLOYED" attributes:@{ NSFontAttributeName: [UIFont fontWithName:@"Chalkboard SE" size:self.currentStatusLabel.font.pointSize] }];
+        self.currentStatusLabel.accessibilityValue = self.currentStatusLabel.attributedText.string;
     }
     else {
         self.currentStatusLabel.font = [UIFont systemFontOfSize:17.0];
         self.currentStatusLabel.text = @"Deployed in normal mode.";
+        self.currentStatusLabel.accessibilityValue = self.currentStatusLabel.attributedText.string;
     }
 }
 
