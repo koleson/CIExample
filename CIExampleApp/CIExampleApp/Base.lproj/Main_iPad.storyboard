@@ -50,7 +50,6 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
-                        <outlet property="currentStatusLabel" destination="gtS-E9-QFL" id="e8e-5q-TYq"/>
                         <outlet property="happyFunSwitch" destination="0Pm-Xd-xfa" id="qaC-VL-MEZ"/>
                     </connections>
                 </viewController>
