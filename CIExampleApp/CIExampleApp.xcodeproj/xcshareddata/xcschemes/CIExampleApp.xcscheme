@@ -43,7 +43,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9B96BB6717FCC1AC0024411D"
-               BuildableName = "UI Tests.xctest"
+               BuildableName = "UI Tests.octest"
                BlueprintName = "UI Tests"
                ReferencedContainer = "container:CIExampleApp.xcodeproj">
             </BuildableReference>
