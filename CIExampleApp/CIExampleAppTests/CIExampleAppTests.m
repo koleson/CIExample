@@ -31,4 +31,9 @@
     // pass the test.
 }
 
+- (void)testAnotherExample
+{
+    // pass the test.
+}
+
 @end
