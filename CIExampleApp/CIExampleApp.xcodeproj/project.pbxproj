@@ -56,7 +56,7 @@
 		9B96BB7017FCC1AC0024411D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B96BB7217FCC1AC0024411D /* UI_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UI_Tests.m; sourceTree = "<group>"; };
 		9B96BB7417FCC1AC0024411D /* UI Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UI Tests-Prefix.pch"; sourceTree = "<group>"; };
-		9B96BB7A17FCC1BE0024411D /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = libKIF.a; path = "../KIF/build/Coverage-iphoneos/libKIF.a"; sourceTree = "<group>"; };
+		9B96BB7A17FCC1BE0024411D /* libKIF.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libKIF.a; path = "../KIF/build/Coverage-iphoneos/libKIF.a"; sourceTree = "<group>"; };
 		9B96BB7D17FCC2570024411D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		9B96BB7F17FCC3280024411D /* CIExampleDeployTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CIExampleDeployTests.h; sourceTree = "<group>"; };
 		9B96BB8017FCC3280024411D /* CIExampleDeployTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CIExampleDeployTests.m; sourceTree = "<group>"; };
@@ -286,9 +286,6 @@
 				TargetAttributes = {
 					9B96BB6717FCC1AC0024411D = {
 						TestTargetID = 9BEBCCF217F92EE500EB0600;
-					};
-					9BEBCCF217F92EE500EB0600 = {
-						DevelopmentTeam = U3KKNJ9R5Y;
 					};
 					9BEBCD1617F92EE500EB0600 = {
 						TestTargetID = 9BEBCCF217F92EE500EB0600;
