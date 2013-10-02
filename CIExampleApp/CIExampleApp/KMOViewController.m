@@ -9,6 +9,8 @@
 #import "KMOViewController.h"
 
 @interface KMOViewController ()
+@property (strong, nonatomic) IBOutlet UISwitch *happyFunSwitch;
+@property (strong, nonatomic) IBOutlet UILabel *currentStatusLabel;
 
 @end
 
@@ -18,12 +20,24 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    self.currentStatusLabel.text = @"Nothing has happened yet.";
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)deployTapped:(id)sender
+{
+    if (self.happyFunSwitch.on) {
+        self.currentStatusLabel.attributedText = [[NSAttributedString alloc] initWithString:@"HAPPY FUN MODE DEPLOYED" attributes:@{ NSFontAttributeName: [UIFont fontWithName:@"Chalkboard SE" size:self.currentStatusLabel.font.pointSize] }];
+    }
+    else {
+        self.currentStatusLabel.font = [UIFont systemFontOfSize:17.0];
+        self.currentStatusLabel.text = @"Deployed in normal mode.";
+    }
 }
 
 @end
