@@ -854,6 +854,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "armv7 armv7s i386 x86_64";
 			};
 			name = Debug;
 		};
@@ -865,6 +866,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "armv7 armv7s i386 x86_64";
 			};
 			name = Release;
 		};
@@ -900,6 +902,7 @@
 				FRAMEWORK_SEARCH_PATHS = "\"$(SDKROOT)/Developer/Library/Frameworks\"";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = KIF;
+				VALID_ARCHS = "armv7 armv7s i386 x86_64";
 			};
 			name = Coverage;
 		};
