@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>CIExampleApp.xcscheme_^#shared#^_</key>
+		<key>CIExampleApp.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,17 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>9B96BB6717FCC1AC0024411D</key>
+		<key>9B8061BB1E3185E6000F2C03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BEBCCF217F92EE500EB0600</key>
+		<key>9B8061D11E3185E6000F2C03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9BEBCD1617F92EE500EB0600</key>
+		<key>9B8061DC1E3185E6000F2C03</key>
 		<dict>
 			<key>primary</key>
 			<true/>
